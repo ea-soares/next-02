@@ -10,7 +10,6 @@ export default async function UsersPage() {
   const usersData: Promise<User[]> = getAllusers();
 
   const users = await usersData;
-  console.log('Hello!')
   const content = (
     <section>
       <h2>
